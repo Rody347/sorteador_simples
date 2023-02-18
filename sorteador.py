@@ -3,11 +3,16 @@ import os, sys
 import random
 
 
+#Escolha do tamanho do sorteio
+n = input('Digite a quantidade de clientes a serem sorteados: ')
+
+
 #Criando a amostragem:
 a = []
 #n = input("Digite a quantidade de clientes será sorteado: ")
-for i in range(0,10):
+for i in range(0,n):
      a.append(i + 1)
+#Teste de variável:
 print(a)
 
 
