@@ -4,7 +4,7 @@ import random
 
 
 #Escolha do tamanho do sorteio
-n = input('Digite a quantidade de clientes a serem sorteados: ')
+n = int(input('Digite a quantidade de clientes a serem sorteados: '))
 
 
 #Criando a amostragem:
